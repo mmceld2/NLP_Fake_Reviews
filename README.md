@@ -17,7 +17,7 @@ This is the distribution of the data in the dataset from Yelp.
 
 # EDA
 
-In a quick overview, the reviews labelled  fake are usually shorter than the reviews labelled as real.
+In a quick overview, the reviews labelled  fake are usually shorter than the reviews labelled as real. Perhaps this could be because the star rating is more important than the actual review itself. This would make sense if a review were bought just for a boosted star. The reviewer would put less effort into writing the review because they know it does not really matter, plus they have to make up experiences which take more effort than is worth. People with real reviews will have no problem describing their experience because the experience actually happened.
 
 ![image](https://user-images.githubusercontent.com/82483702/138177886-4ba1867f-1702-4d06-b982-37c68d94f587.png)
 
@@ -33,7 +33,7 @@ A TFIDF Vectorizer with the minority class over sampled utilizing an XGBoost mod
 
 # Conlcusion
 
-
+With the help of machine learning and natural language processing, the problem of fake reviews can be minimized. With access to more data such as user activity and the location of the user are things that could further help the model catch fake reviews. 
 
 
 
