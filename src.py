@@ -42,15 +42,15 @@ def val_count_nf(df,column):
     return counts_sorted
 
 
-def addlabels(x,y,left,up):
+def addlabels(x,y,left,up,font=12):
     '''Add labels on top of each bar on bar graph'''
     for i in range(len(x)):
-        plt.text(i-left,y[i]+up,y[i])
+        plt.text(i-left,y[i]+up,y[i],fontsize=font)
 
 def addlabelsbig(x,y,left,up):
     '''Add BIGGER labels on top of each bar on bar graph'''
     for i in range(len(x)):
-        plt.text(i-left,y[i]+up,f'{y[i]}%',fontsize=20,color='black')
+        plt.text(i-left,y[i]+up,{y[i]},fontsize=20,color='black')
 
 def percent_dict(df,column):
     '''Creates a dictionary that has highest percent of non functioning pumps'''
