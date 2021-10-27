@@ -1,4 +1,6 @@
 # Fake Review Detection
+ 
+![image](https://user-images.githubusercontent.com/82483702/139144016-7a02d729-d4fd-4742-9408-59fa59916c02.png)
 
 # Business Problem
 
