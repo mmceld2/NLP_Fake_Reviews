@@ -63,6 +63,12 @@ The metric chosen was recall, which ended up being 69%. This is designed to flag
 
 While the model does a good job at catching most of the fake reviews, there are alot of false positives. The precision could be improved on this model.
 
+The model was also ran on local reviews scraped from yelp.
+
+![Rev_pred](images/Review_Pred.png)
+
+The model predicts most of the reviews I scraped to not be real. I know the model does have a problem with false positives, but perhaps my local area is full of fake review troll accounts also?
+
 # Conlcusion
 
 With the help of machine learning and natural language processing, the problem of fake reviews can be minimized. With access to more data such as user activity and the location of the user are things that could further help the model catch fake reviews. 
